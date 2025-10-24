@@ -2,8 +2,9 @@
 Date: 2025-10-24
 Author: Augustine Khumalo
 Description: List is a built-in dynamic array which can store elements of different data types.
-ordered collection of item, meaning elements are stored in the same order as they came into the list. 
-List stores references to the objects (elements) rather than storing the actual data itself.
+- ordered collection of item, meaning elements are stored in the same order as they came into the list. 
+- stores references to the objects (elements) rather than storing the actual data itself.
+
 NB: Lists are mutable, meaning their elements can be changed after the list is created.
 """
 # Creating a list and assigning it to variables of different data types
