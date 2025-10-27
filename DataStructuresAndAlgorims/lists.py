@@ -12,3 +12,4 @@ my_list = [1, "Hello", 3.14, True, [5, 6, 7]]
 
 #Searching Algorithms
 print(6 in my_list) # Output: False because 6 is not an element of my_list however 6 is an element of the nested list [5, 6, 7]
+print(6 in my_list[4]) # Output: True because 6 is an element of the nested list [5, 6, 7]
