@@ -10,5 +10,5 @@ NB: Lists are mutable, meaning their elements can be changed after the list is c
 # Creating a list and assigning it to variables of different data types
 my_list = [1, "Hello", 3.14, True, [5, 6, 7]]
 
-for item in my_list:
-    print(f"Item: {item}, Type: {type(item)}")
+#Searching Algorithms
+print(6 in my_list) # Output: False because 6 is not an element of my_list however 6 is an element of the nested list [5, 6, 7]
